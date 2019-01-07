@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve" : "./node_modules/.bin/static",
+    "serve": "./node_modules/.bin/static",
+    "lint": "node_modules/.bin/eslint components/**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/sunneyman/components_21_30#readme",
   "devDependencies": {
+    "eslint": "^5.12.0",
     "node-static": "^0.7.11"
   }
 }
